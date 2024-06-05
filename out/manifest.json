@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Google docs inverter",
+    "version": "1.0",
+    "description": "Chrome extension. Just apply invert filter to google docs pages.",
+    "permissions": [
+        "storage",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Execute"
+    },
+    "host_permissions": [
+        "https://docs.google.com/document/*"
+    ]
+    
+  }
